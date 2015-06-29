@@ -12,7 +12,7 @@
 #include <unistd.h>
 
 #include "LEDSync.h"
-#include "RCFilter.h"
+#include "filter.h"
 
 int set_interface_attribs(int fd, int speed, int parity) {
     struct termios tty;
